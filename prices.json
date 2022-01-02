@@ -1,0 +1,163 @@
+{
+    "prices": [{
+            "package_name": "Bayi",
+            "price_strike": 19900,
+            "price": 14900,
+            "total_user": 938,
+            "features": [{
+                    "description": "<b>0.5X RESOURCE POWER</b>"
+                },
+                {
+                    "description": "<b>500 MB</b> Disk Space"
+                },
+                {
+                    "description": "<b>Unlimited</b> Bandwidth"
+                },
+                {
+                    "description": "<b>Unlimited</b> Databases"
+                },
+                {
+                    "description": "<b>1</b> Domain"
+                },
+                {
+                    "description": "<b>Instant</b> Backup"
+                },
+                {
+                    "description": "<b>Unlimited SSL</b> Gratis Selamanya"
+                }
+            ],
+            "button_label": "Pilih Sekarang",
+            "button_link": "#",
+            "is_best_seller": 0
+        },
+        {
+            "package_name": "Pelajar",
+            "price_strike": 46900,
+            "price": 23450,
+            "total_user": 4168,
+            "features": [{
+                    "description": "<b>1X RESOURCE POWER</b>"
+                },
+                {
+                    "description": "<b>Unlimited</b> Disk Space"
+                },
+                {
+                    "description": "<b>Unlimited</b> Bandwidth"
+                },
+                {
+                    "description": "<b>Unlimited</b> POP3 Email"
+                },
+                {
+                    "description": "<b>Unlimited</b> Databases"
+                },
+                {
+                    "description": "<b>10</b> Addon Domains"
+                },
+                {
+                    "description": "<b>Instant</b> Backup"
+                },
+                {
+                    "description": "<b>Domain</b> Gratis Selamanya"
+                },
+                {
+                    "description": "<b>Unlimited SSL</b> Gratis Selamanya"
+                }
+            ],
+            "button_label": "Pilih Sekarang",
+            "button_link": "#",
+            "is_best_seller": 0
+        },
+        {
+            "package_name": "Personal",
+            "price_strike": 58900,
+            "price": 38900,
+            "total_user": 10017,
+            "features": [{
+                    "description": "<b>2X RESOURCE POWER</b>"
+                },
+                {
+                    "description": "<b>Unlimited</b> Disk Space"
+                },
+                {
+                    "description": "<b>Unlimited</b> Bandwidth"
+                },
+                {
+                    "description": "<b>Unlimited</b> POP3 Email"
+                },
+                {
+                    "description": "<b>Unlimited</b> Databases"
+                },
+                {
+                    "description": "<b>Unlimited</b> Addon Domains"
+                },
+                {
+                    "description": "<b>Instant</b> Backup"
+                },
+                {
+                    "description": "<b>Domain</b> Gratis Selamanya"
+                },
+                {
+                    "description": "<b>Unlimited SSL</b> Gratis Selamanya"
+                },
+                {
+                    "description": "<b>Private</b> Name Server"
+                },
+                {
+                    "description": "<b>SpamAssasin</b> Mail Protection"
+                }
+            ],
+            "button_label": "Pilih Sekarang",
+            "button_link": "#",
+            "is_best_seller": 1
+        },
+        {
+            "package_name": "Bisnis",
+            "price_strike": 109900,
+            "price": 65900,
+            "total_user": 3552,
+            "features": [{
+                    "description": "<b>3X RESOURCE POWER</b>"
+                },
+                {
+                    "description": "<b>Unlimited</b> Disk Space"
+                },
+                {
+                    "description": "<b>Unlimited</b> Bandwidth"
+                },
+                {
+                    "description": "<b>Unlimited</b> POP3 Email"
+                },
+                {
+                    "description": "<b>Unlimited</b> Databases"
+                },
+                {
+                    "description": "<b>Unlimited</b> Addon Domains"
+                },
+                {
+                    "description": "<b>Magic Auto</b> Backup & Restore"
+                },
+                {
+                    "description": "<b>Domain</b> Gratis Selamanya"
+                },
+                {
+                    "description": "<b>Unlimited SSL</b> Gratis Selamanya"
+                },
+                {
+                    "description": "<b>Private</b> Name Server"
+                },
+                {
+                    "description": "<b>Prioritas</b> Layanan Support"
+                },
+                {
+                    "description": "<span style='color:#007aff;'>&starf;&starf;&starf;&starf;&starf;</span>"
+                },
+                {
+                    "description": "<b>SpamAssasin</b> Pro Mail Protection"
+                }
+            ],
+            "button_label": "Diskon 40%",
+            "button_link": "#",
+            "is_best_seller": 0
+        }
+    ]
+}

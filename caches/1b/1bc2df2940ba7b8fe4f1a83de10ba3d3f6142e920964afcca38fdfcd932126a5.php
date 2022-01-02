@@ -126,6 +126,66 @@ class __TwigTemplate_0abe985d719e72bab93bf000143d113a79f03aca62bef94eed295f98472
         </div>
       </div>
     </section>
+    <section id=\"feature\">
+      <div class=\"container feature-box\">
+        <div class=\"row\">
+          <div class=\"col-md-4\">
+            <div class=\"img-feature text-center first\">
+              <img src=\"assets/svg/illustration-banner-PHP-zenguard01.svg\" width=\"180\">
+            </div>
+            <div class=\"text-feature text-center\">
+              PHP Zend Guard Loader
+            </div>
+          </div>
+          <div class=\"col-md-4\">
+            <div class=\"img-feature text-center\">
+              <img src=\"assets/svg/icon-composer.svg\" width=\"130\">
+            </div>
+            <div class=\"text-feature text-center\">
+              PHP Composer
+            </div>
+          </div>
+          <div class=\"col-md-4\">
+            <div class=\"img-feature text-center last\">
+              <img src=\"assets/svg/icon-php-hosting-ioncube.svg\" width=\"180\">
+            </div>
+            <div class=\"text-feature text-center\">
+              PHP ionCube Loader
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id=\"pricing\" class=\"pt-3\">
+      <div class=\"container\">
+        <div class=\"row\">
+          <div class=\"col text-center\">
+            <h2>Paket Hosting Singapura yang tepat</h2>
+            <span class=\"subtitle\">Diskon 40% + Domain dan SSL Gratis untuk Anda</span>
+          </div>
+        </div>
+        <div class=\"row\">
+          ";
+        // line 132
+        $context['_parent'] = $context;
+        $context['_seq'] = twig_ensure_traversable(twig_get_attribute($this->env, $this->source, ($context["packages"] ?? null), "employees", [], "any", false, false, false, 132));
+        foreach ($context['_seq'] as $context["_key"] => $context["package"]) {
+            // line 133
+            echo "          <div class=\"col\">
+            ";
+            // line 134
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["package"], "firstName", [], "any", false, false, false, 134), "html", null, true);
+            echo "
+          </div>
+          ";
+        }
+        $_parent = $context['_parent'];
+        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['package'], $context['_parent'], $context['loop']);
+        $context = array_intersect_key($context, $_parent) + $_parent;
+        // line 137
+        echo "        </div>
+      </div>
+    </section>
 
     <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p\" crossorigin=\"anonymous\"></script>
   </body>
@@ -137,9 +197,14 @@ class __TwigTemplate_0abe985d719e72bab93bf000143d113a79f03aca62bef94eed295f98472
         return "landing.html";
     }
 
+    public function isTraitable()
+    {
+        return false;
+    }
+
     public function getDebugInfo()
     {
-        return array (  37 => 1,);
+        return array (  186 => 137,  177 => 134,  174 => 133,  170 => 132,  37 => 1,);
     }
 
     public function getSourceContext()
