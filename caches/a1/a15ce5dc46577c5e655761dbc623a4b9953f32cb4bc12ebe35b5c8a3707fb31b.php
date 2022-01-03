@@ -43,7 +43,7 @@ class __TwigTemplate_305b625d8fae53852f500eb98a424755a367a3628ed2f2f858a8d011c49
     <link rel=\"stylesheet\" type=\"text/css\" href=\"assets/css/bootstrap.min.css\">
     <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css\" integrity=\"sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\" />
 
-    <link rel=\"stylesheet\" type=\"text/css\" href=\"assets/css/custom.css\">
+    <link rel=\"stylesheet\" type=\"text/css\" href=\"assets/css/custom.min.css\">
 
     <title>Landing Page - Niagahoster</title>
   </head>
@@ -67,7 +67,7 @@ class __TwigTemplate_305b625d8fae53852f500eb98a424755a367a3628ed2f2f858a8d011c49
       <div class=\"container\">
         <div class=\"navbar p-0 navbar-expand-lg\">
           <div class=\"navbar-brand\">
-            <a class=\"logo-default\" href=\"#\"><img alt=\"\" src=\"assets/svg/nh-logo-blue.svg\" width=\"300\"></a>
+            <a class=\"logo-default\" href=\"#\"><img alt=\"Logo Niagahoster\" src=\"assets/svg/nh-logo-blue.svg\" class=\"img-fluid\"></a>
           </div>
           <span aria-expanded=\"false\" class=\"navbar-toggler ml-auto collapsed\" data-target=\"#ec-nav__collapsible\" data-toggle=\"collapse\">
             <div class=\"hamburger hamburger--spin js-hamburger\">
@@ -353,7 +353,7 @@ class __TwigTemplate_305b625d8fae53852f500eb98a424755a367a3628ed2f2f858a8d011c49
           </div>
         </div>
         <div class=\"row text-center mt-4\">
-          <div class=\"col\">
+          <div class=\"col-12 col-md-4\">
             <div class=\"img-feature text-center\">
               <img src=\"assets/svg/icon PHP Hosting_PHP Semua Versi.svg\" width=\"20%\">
             </div>
@@ -362,7 +362,7 @@ class __TwigTemplate_305b625d8fae53852f500eb98a424755a367a3628ed2f2f858a8d011c49
               <p>Pilih Mulai dari versi PHP 5.3 s/d PHP 7. Ubah sesuka Anda!</p>
             </div>
           </div>
-          <div class=\"col\">
+          <div class=\"col-12 col-md-4\">
             <div class=\"img-feature text-center\">
               <img src=\"assets/svg/icon PHP Hosting_My SQL.svg\" width=\"20%\">
             </div>
@@ -371,7 +371,7 @@ class __TwigTemplate_305b625d8fae53852f500eb98a424755a367a3628ed2f2f858a8d011c49
               <p>Nikmati MySQL versi terbaru, tercepat, dan kaya akan fitur.</p>
             </div>
           </div>
-          <div class=\"col\">
+          <div class=\"col-12 col-md-4\">
             <div class=\"img-feature text-center\">
               <img src=\"assets/svg/icon PHP Hosting_CPanel.svg\" width=\"20%\">
             </div>
@@ -382,7 +382,7 @@ class __TwigTemplate_305b625d8fae53852f500eb98a424755a367a3628ed2f2f858a8d011c49
           </div>
         </div>
         <div class=\"row text-center\">
-          <div class=\"col\">
+          <div class=\"col-12 col-md-4\">
             <div class=\"img-feature\">
               <img src=\"assets/svg/icon PHP Hosting_garansi uptime.svg\" width=\"20%\">
             </div>
@@ -391,7 +391,7 @@ class __TwigTemplate_305b625d8fae53852f500eb98a424755a367a3628ed2f2f858a8d011c49
               <p>Data center yang mendukung kelangsungan website Anda 24/7.</p>
             </div>
           </div>
-          <div class=\"col\">
+          <div class=\"col-12 col-md-4\">
             <div class=\"img-feature text-center\">
               <img src=\"assets/svg/icon PHP Hosting_InnoDB.svg\" width=\"20%\">
             </div>
@@ -400,7 +400,7 @@ class __TwigTemplate_305b625d8fae53852f500eb98a424755a367a3628ed2f2f858a8d011c49
               <p>Jumlah dan ukuran database yang tumbuh sesuai kebutuhan Anda.</p>
             </div>
           </div>
-          <div class=\"col\">
+          <div class=\"col-12 col-md-4\">
             <div class=\"img-feature text-center\">
               <img src=\"assets/svg/icon PHP Hosting_My SQL remote.svg\" width=\"20%\">
             </div>
@@ -421,7 +421,7 @@ class __TwigTemplate_305b625d8fae53852f500eb98a424755a367a3628ed2f2f858a8d011c49
         </div>
         <div class=\"row\">
           <div class=\"col-md-6 col-12 pt-3\">
-            <p class=\"subtitle\">
+            <p class=\"subtitle text-justify text-md-left\">
               Tak perlu menggunakan dedicated server ataupun VPS yang mahal. Layanan PHP Hosting murah kami mendukung penuh framework favorit Anda
             </p>
             <ul>
@@ -452,8 +452,8 @@ class __TwigTemplate_305b625d8fae53852f500eb98a424755a367a3628ed2f2f858a8d011c49
           </div>
         </div>
         <div class=\"row\">
-          <div class=\"col\">
-            <ul type=\"none\">
+          <div class=\"col-6 col-md-3\">
+            <ul class=\"list-module\">
               <li>IcePHP</li>
               <li>apc</li>
               <li>apcu</li>
@@ -471,8 +471,8 @@ class __TwigTemplate_305b625d8fae53852f500eb98a424755a367a3628ed2f2f858a8d011c49
               <li>dba</li>
             </ul>
           </div>
-          <div class=\"col\">
-            <ul type=\"none\">
+          <div class=\"col-6 col-md-3\">
+            <ul class=\"list-module\">
               <li>http</li>
               <li>huffman</li>
               <li>idn</li>
@@ -490,8 +490,8 @@ class __TwigTemplate_305b625d8fae53852f500eb98a424755a367a3628ed2f2f858a8d011c49
               <li>idap</li>
             </ul>
           </div>
-          <div class=\"col\">
-            <ul type=\"none\">
+          <div class=\"col-6 col-md-3\">
+            <ul class=\"list-module\">
               <li>nd_pdo_mysql</li>
               <li>oauth</li>
               <li>oci8</li>
@@ -509,8 +509,8 @@ class __TwigTemplate_305b625d8fae53852f500eb98a424755a367a3628ed2f2f858a8d011c49
               <li>phalcon</li>
             </ul>
           </div>
-          <div class=\"col\">
-            <ul type=\"none\">
+          <div class=\"col-6 col-md-3\">
+            <ul class=\"list-module\">
               <li>stats</li>
               <li>stem</li>
               <li>stomp</li>
@@ -541,7 +541,7 @@ class __TwigTemplate_305b625d8fae53852f500eb98a424755a367a3628ed2f2f858a8d011c49
         <div class=\"row\">
           <div class=\"col-md-6 col-12\">
             <h3 class=\"mb-4\">Linux Hosting yang Stabil dengan Teknologi LVE</h3>
-            <p class=\"mb-3\">SuperMicro <strong>Intel Xeon 24-Cores</strong> server dengan RAM <strong>128 GB</strong> dan teknologi <strong>LVE CloudLinux</strong> untuk stabilitas server Anda. Dilengkapi dengan <strong>SSD</strong> untuk kecepatan <strong>MySQL</strong> dan caching, Apache load balancer berbasis LiteSpeed Technologies, <strong>CageFS</strong> Security, <strong>Raid-10</strong> protection dan auto backup untuk keamanan website PHP Anda.</p>
+            <p class=\"mb-3 text-justify text-md-left\">SuperMicro <strong>Intel Xeon 24-Cores</strong> server dengan RAM <strong>128 GB</strong> dan teknologi <strong>LVE CloudLinux</strong> untuk stabilitas server Anda. Dilengkapi dengan <strong>SSD</strong> untuk kecepatan <strong>MySQL</strong> dan caching, Apache load balancer berbasis LiteSpeed Technologies, <strong>CageFS</strong> Security, <strong>Raid-10</strong> protection dan auto backup untuk keamanan website PHP Anda.</p>
             <a href=\"#\" class=\"btn btn-outline-light rounded-pill font-weight-bold btn-choose\">Pilih Hosting Anda</a>
           </div>
           <div class=\"col-md-6 col-12 pt-5 text-right\">
@@ -708,7 +708,8 @@ class __TwigTemplate_305b625d8fae53852f500eb98a424755a367a3628ed2f2f858a8d011c49
       </div>
     </footer>
 
-    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p\" crossorigin=\"anonymous\"></script>
+    <script src=\"assets/js/vendors.bundle.js\"></script>
+    <script src=\"assets/js/app.min.js\"></script>
   </body>
 </html>";
     }
@@ -739,7 +740,7 @@ class __TwigTemplate_305b625d8fae53852f500eb98a424755a367a3628ed2f2f858a8d011c49
     <link rel=\"stylesheet\" type=\"text/css\" href=\"assets/css/bootstrap.min.css\">
     <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css\" integrity=\"sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\" />
 
-    <link rel=\"stylesheet\" type=\"text/css\" href=\"assets/css/custom.css\">
+    <link rel=\"stylesheet\" type=\"text/css\" href=\"assets/css/custom.min.css\">
 
     <title>Landing Page - Niagahoster</title>
   </head>
@@ -763,7 +764,7 @@ class __TwigTemplate_305b625d8fae53852f500eb98a424755a367a3628ed2f2f858a8d011c49
       <div class=\"container\">
         <div class=\"navbar p-0 navbar-expand-lg\">
           <div class=\"navbar-brand\">
-            <a class=\"logo-default\" href=\"#\"><img alt=\"\" src=\"assets/svg/nh-logo-blue.svg\" width=\"300\"></a>
+            <a class=\"logo-default\" href=\"#\"><img alt=\"Logo Niagahoster\" src=\"assets/svg/nh-logo-blue.svg\" class=\"img-fluid\"></a>
           </div>
           <span aria-expanded=\"false\" class=\"navbar-toggler ml-auto collapsed\" data-target=\"#ec-nav__collapsible\" data-toggle=\"collapse\">
             <div class=\"hamburger hamburger--spin js-hamburger\">
@@ -963,7 +964,7 @@ class __TwigTemplate_305b625d8fae53852f500eb98a424755a367a3628ed2f2f858a8d011c49
           </div>
         </div>
         <div class=\"row text-center mt-4\">
-          <div class=\"col\">
+          <div class=\"col-12 col-md-4\">
             <div class=\"img-feature text-center\">
               <img src=\"assets/svg/icon PHP Hosting_PHP Semua Versi.svg\" width=\"20%\">
             </div>
@@ -972,7 +973,7 @@ class __TwigTemplate_305b625d8fae53852f500eb98a424755a367a3628ed2f2f858a8d011c49
               <p>Pilih Mulai dari versi PHP 5.3 s/d PHP 7. Ubah sesuka Anda!</p>
             </div>
           </div>
-          <div class=\"col\">
+          <div class=\"col-12 col-md-4\">
             <div class=\"img-feature text-center\">
               <img src=\"assets/svg/icon PHP Hosting_My SQL.svg\" width=\"20%\">
             </div>
@@ -981,7 +982,7 @@ class __TwigTemplate_305b625d8fae53852f500eb98a424755a367a3628ed2f2f858a8d011c49
               <p>Nikmati MySQL versi terbaru, tercepat, dan kaya akan fitur.</p>
             </div>
           </div>
-          <div class=\"col\">
+          <div class=\"col-12 col-md-4\">
             <div class=\"img-feature text-center\">
               <img src=\"assets/svg/icon PHP Hosting_CPanel.svg\" width=\"20%\">
             </div>
@@ -992,7 +993,7 @@ class __TwigTemplate_305b625d8fae53852f500eb98a424755a367a3628ed2f2f858a8d011c49
           </div>
         </div>
         <div class=\"row text-center\">
-          <div class=\"col\">
+          <div class=\"col-12 col-md-4\">
             <div class=\"img-feature\">
               <img src=\"assets/svg/icon PHP Hosting_garansi uptime.svg\" width=\"20%\">
             </div>
@@ -1001,7 +1002,7 @@ class __TwigTemplate_305b625d8fae53852f500eb98a424755a367a3628ed2f2f858a8d011c49
               <p>Data center yang mendukung kelangsungan website Anda 24/7.</p>
             </div>
           </div>
-          <div class=\"col\">
+          <div class=\"col-12 col-md-4\">
             <div class=\"img-feature text-center\">
               <img src=\"assets/svg/icon PHP Hosting_InnoDB.svg\" width=\"20%\">
             </div>
@@ -1010,7 +1011,7 @@ class __TwigTemplate_305b625d8fae53852f500eb98a424755a367a3628ed2f2f858a8d011c49
               <p>Jumlah dan ukuran database yang tumbuh sesuai kebutuhan Anda.</p>
             </div>
           </div>
-          <div class=\"col\">
+          <div class=\"col-12 col-md-4\">
             <div class=\"img-feature text-center\">
               <img src=\"assets/svg/icon PHP Hosting_My SQL remote.svg\" width=\"20%\">
             </div>
@@ -1031,7 +1032,7 @@ class __TwigTemplate_305b625d8fae53852f500eb98a424755a367a3628ed2f2f858a8d011c49
         </div>
         <div class=\"row\">
           <div class=\"col-md-6 col-12 pt-3\">
-            <p class=\"subtitle\">
+            <p class=\"subtitle text-justify text-md-left\">
               Tak perlu menggunakan dedicated server ataupun VPS yang mahal. Layanan PHP Hosting murah kami mendukung penuh framework favorit Anda
             </p>
             <ul>
@@ -1062,8 +1063,8 @@ class __TwigTemplate_305b625d8fae53852f500eb98a424755a367a3628ed2f2f858a8d011c49
           </div>
         </div>
         <div class=\"row\">
-          <div class=\"col\">
-            <ul type=\"none\">
+          <div class=\"col-6 col-md-3\">
+            <ul class=\"list-module\">
               <li>IcePHP</li>
               <li>apc</li>
               <li>apcu</li>
@@ -1081,8 +1082,8 @@ class __TwigTemplate_305b625d8fae53852f500eb98a424755a367a3628ed2f2f858a8d011c49
               <li>dba</li>
             </ul>
           </div>
-          <div class=\"col\">
-            <ul type=\"none\">
+          <div class=\"col-6 col-md-3\">
+            <ul class=\"list-module\">
               <li>http</li>
               <li>huffman</li>
               <li>idn</li>
@@ -1100,8 +1101,8 @@ class __TwigTemplate_305b625d8fae53852f500eb98a424755a367a3628ed2f2f858a8d011c49
               <li>idap</li>
             </ul>
           </div>
-          <div class=\"col\">
-            <ul type=\"none\">
+          <div class=\"col-6 col-md-3\">
+            <ul class=\"list-module\">
               <li>nd_pdo_mysql</li>
               <li>oauth</li>
               <li>oci8</li>
@@ -1119,8 +1120,8 @@ class __TwigTemplate_305b625d8fae53852f500eb98a424755a367a3628ed2f2f858a8d011c49
               <li>phalcon</li>
             </ul>
           </div>
-          <div class=\"col\">
-            <ul type=\"none\">
+          <div class=\"col-6 col-md-3\">
+            <ul class=\"list-module\">
               <li>stats</li>
               <li>stem</li>
               <li>stomp</li>
@@ -1151,7 +1152,7 @@ class __TwigTemplate_305b625d8fae53852f500eb98a424755a367a3628ed2f2f858a8d011c49
         <div class=\"row\">
           <div class=\"col-md-6 col-12\">
             <h3 class=\"mb-4\">Linux Hosting yang Stabil dengan Teknologi LVE</h3>
-            <p class=\"mb-3\">SuperMicro <strong>Intel Xeon 24-Cores</strong> server dengan RAM <strong>128 GB</strong> dan teknologi <strong>LVE CloudLinux</strong> untuk stabilitas server Anda. Dilengkapi dengan <strong>SSD</strong> untuk kecepatan <strong>MySQL</strong> dan caching, Apache load balancer berbasis LiteSpeed Technologies, <strong>CageFS</strong> Security, <strong>Raid-10</strong> protection dan auto backup untuk keamanan website PHP Anda.</p>
+            <p class=\"mb-3 text-justify text-md-left\">SuperMicro <strong>Intel Xeon 24-Cores</strong> server dengan RAM <strong>128 GB</strong> dan teknologi <strong>LVE CloudLinux</strong> untuk stabilitas server Anda. Dilengkapi dengan <strong>SSD</strong> untuk kecepatan <strong>MySQL</strong> dan caching, Apache load balancer berbasis LiteSpeed Technologies, <strong>CageFS</strong> Security, <strong>Raid-10</strong> protection dan auto backup untuk keamanan website PHP Anda.</p>
             <a href=\"#\" class=\"btn btn-outline-light rounded-pill font-weight-bold btn-choose\">Pilih Hosting Anda</a>
           </div>
           <div class=\"col-md-6 col-12 pt-5 text-right\">
@@ -1318,7 +1319,8 @@ class __TwigTemplate_305b625d8fae53852f500eb98a424755a367a3628ed2f2f858a8d011c49
       </div>
     </footer>
 
-    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p\" crossorigin=\"anonymous\"></script>
+    <script src=\"assets/js/vendors.bundle.js\"></script>
+    <script src=\"assets/js/app.min.js\"></script>
   </body>
 </html>", "landing.html", "/Applications/XAMPP/xamppfiles/htdocs/landing-niaga/templates/landing.html");
     }

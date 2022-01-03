@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*@font-face {
+    font-family: Montserrat-Regular;
+    src:url("../fonts/montserrat/Montserrat-Regular.otf");
+}*/
+
+* {
+  font-family: Montserrat;
+}
+
+.table-striped tbody tr {
+  &:nth-of-type(even) {
+    background: rgba(0, 0, 0, 0.05);
+  }
+
+  &:nth-of-type(odd) {
+    background: rgba(0, 0, 0, 0);
+  }
+}
+
+.site-header {
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 5px;
+
+  .text-promo {
+    font-size: 0.9rem;
+  }
+
+  .contact {
+    margin: 10px;
+  }
+
+  .icon-member {
+    font-size: 1.5rem;
+  }
+}
+
+.logo-default img {
+  width: 300px;
+}
+
+#hero {
+  padding-top: 50px;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 50px;
+
+  h2 {
+    font-family: Montserrat;
+    font-weight: bold;
+  }
+
+  h3 {
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 1.9rem;
+  }
+
+  ul {
+    padding: 0;
+    margin-top: 15px;
+
+    li {
+      display: flex;
+      align-items: center;
+      margin: 0;
+      line-height: 30px;
+      list-style: none;
+
+      &:before {
+        display: block;
+        flex-shrink: 0;
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+        vertical-align: middle;
+        background: url('https://image.flaticon.com/icons/png/128/1168/1168671.png') no-repeat left center;
+        background-size: contain;
+        content: '';
+      }
+    }
+  }
+}
+
+#feature {
+  .feature-box {
+    width: 65%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .img-feature {
+    height: 190px;
+
+    &.first {
+      padding-top: 90px;
+    }
+
+    &.last {
+      padding-top: 80px;
+    }
+  }
+
+  .text-feature {
+    font-size: 0.8rem;
+  }
+}
+
+#pricing {
+  h2 {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 0.2rem;
+  }
+
+  .subtitle {
+    font-size: 1.2rem;
+  }
+
+  .pricing-box {
+    padding: 0;
+
+    img {
+      position: absolute;
+      top: -5px;
+      left: -5px;
+    }
+
+    .active-border {
+      border-color: #1890eb !important;
+    }
+
+    .active {
+      background: #1890eb;
+      color: #fff;
+    }
+
+    .active-darker {
+      background: #1481db;
+      color: #fff;
+    }
+
+    .darker {
+      background: #1890eb;
+      color: #fff;
+      border-color: #1890eb !important;
+    }
+  }
+
+  .package-title {
+    font-weight: bold;
+    font-size: 1.3rem;
+  }
+
+  .package-price {
+    .price-strike {
+      text-decoration: line-through;
+      padding: 10px;
+    }
+
+    .price-normal {
+      sup {
+        top: -0.7em !important;
+        font-size: 1rem;
+      }
+
+      .big {
+        font-size: 2rem;
+      }
+    }
+  }
+
+  .package-total-user {
+    font-family: Roboto;
+    font-size: 0.9rem;
+  }
+
+  .package-features {
+    font-family: Roboto;
+    font-size: 0.9rem;
+    line-height: 1.7rem;
+  }
+}
+
+#more-feature h2, #included-feature h2, #support-feature h2, #module-feature h2 {
+  font-family: Montserrat;
+  font-weight: 300;
+}
+
+#more-feature .checkmark {
+  float: left;
+}
+
+hr {
+  width: 5%;
+  height: 2px;
+  background-color: #e5e5e5;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#included-feature .text-feature {
+  padding-left: 30px;
+  padding-right: 30px;
+
+  h3 {
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+
+  p {
+    font-family: Montserrat;
+    font-size: 0.8rem;
+  }
+}
+
+#module-feature .list-module {
+  list-style-type: none;
+}
+
+#support-feature {
+  ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 0.8rem;
+
+    li {
+      line-height: 25px;
+
+      i {
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .subtitle {
+    font-size: 1.2rem;
+    font-weight: 300;
+  }
+
+  .note {
+    font-size: 0.6rem;
+  }
+}
+
+.btn-choose {
+  background: #1890eb;
+  color: #fff;
+}
+
+#linux-feature {
+  h3 {
+    font-family: Montserrat;
+    font-size: 2rem;
+    font-weight: 400;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}
+
+#share {
+  background: #F7F7F7;
+
+  .share-text {
+    font-family: Montserrat;
+    font-weight: 500;
+    vertical-align: middle;
+  }
+}
+
+#help {
+  background: #22a1f0;
+
+  .help-text {
+    font-size: 2rem;
+    color: #fff;
+  }
+}
+
+footer {
+  font-family: Roboto;
+  background: #333;
+  padding: 20px 0;
+  color: #ccc;
+
+  .footer-title {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #8d8d8d;
+    line-height: 20px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+
+  .footer-content {
+    font-size: 0.8rem;
+    color: #ccc;
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+
+      li {
+        margin-bottom: 5px;
+
+        a:hover {
+          color: #22a1f0;
+        }
+      }
+    }
+
+    #form-newsletter {
+      .form-control {
+        border: none;
+        border-radius: 30px 0 0 30px;
+      }
+
+      .input-group-btn {
+        background-color: #fff;
+        background-image: none;
+        border-radius: 0 30px 30px 0;
+        box-shadow: 0 1px 1px rgb(0 0 0 / 8%) inset;
+        color: #2c3e50;
+        padding-right: 5px;
+
+        button {
+          padding: 5px;
+          height: 33px;
+          border-radius: 30px;
+          margin-left: 5px;
+          margin-top: 5px;
+        }
+      }
+    }
+
+    .note {
+      font-size: 12px !important;
+      color: #777 !important;
+    }
+  }
+
+  .footer-end {
+    border-top: 1px solid #4c4c4c;
+    font-size: 0.7rem;
+    padding-top: 10px;
+
+    p {
+      padding: 0;
+      margin-bottom: 0;
+    }
+
+    a:hover {
+      color: #22a1f0;
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #help .help-text {
+    font-size: 1.5rem;
+  }
+
+  .navbar-brand img {
+    max-width: 230px;
+  }
+
+  .site-header .text-promo {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .navbar-brand img {
+    max-width: 230px;
+  }
+  #module-feature .list-module {
+    list-style-type: none;
+    padding-left: 0px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .navbar-brand img {
+    max-width: 200px;
+  }
+
+  #module-feature .list-module {
+    list-style-type: none;
+    padding-left: 0px;
+  }
+}
